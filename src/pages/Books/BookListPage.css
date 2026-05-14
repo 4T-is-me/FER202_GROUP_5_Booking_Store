@@ -1,0 +1,60 @@
+.book-layout{
+display:flex;
+min-height:100vh;
+background:#f5f7fb;
+}
+
+
+/* main area */
+
+.main-content{
+flex:1;
+padding:20px 30px;
+}
+
+/* hero banner */
+
+.hero-banner{
+margin-bottom:25px;
+}
+
+.hero-banner img{
+height:300px;
+object-fit:cover;
+border-radius:12px;
+}
+
+/* category block */
+
+.category-block{
+background:rgb(252, 252, 252);
+padding:20px;
+border-radius:12px;
+box-shadow:0 2px 8px rgba(0,0,0,0.05);
+margin-bottom:25px;
+}
+
+.category-block h5{
+font-weight:600;
+margin-bottom:15px;
+}
+
+.view-all-link {
+  font-weight: 500;
+  text-decoration: none;
+  color: #0d6efd;
+}
+
+.view-all-link:hover {
+  text-decoration: underline;
+}
+.empty-category{
+  height:385px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#f8f9fa;
+  border-radius:10px;
+  color:#777;
+  font-style:italic;
+}
